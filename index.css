@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(7, 59, 139);
+}
+
+.wrapper{
+    text-align: center;
+}
+
+.nav{
+    height: 80px;
+    background-color: rgb(23, 20, 20);
+    opacity: 0.7;
+}
+
+ul{
+    margin: 0 auto;
+    list-style: none;
+}
+
+li{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    padding: 25px 30px;
+}
+
+li a:hover{
+    background-color: #fff;
+    color: black;
+    transition: 1s;
+}
